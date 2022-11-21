@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #c74141;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #bb3c3c;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #2a1f1f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f14848;
+}
+
+body {
+    font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
+    line-height: 1;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    min-height: 100%;
+    background-color: #2a1f1f;
+    font-size: 1.0rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile-div {
+    text-align: justify;
+    width: 8.0rem;
+    margin: 0 10px;
+}
+
+.profile-div img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.container > * {
+    display: inline-flex;
+}
+
+.container {
+    margin-left: -10px;
+    margin-right: -10px;
+}
