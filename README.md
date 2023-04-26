@@ -1,3 +1,3 @@
-# teds-homepage
+# teds-gg
 
-a place to access important pages i guess
+[gg.tedps.tk](https://gg.tedps.tk)
