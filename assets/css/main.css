@@ -24,10 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
     line-height: 1;
-    margin-bottom: 20%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 6%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    min-height: 100%;
+    background-color: #2a1f1f;
+    font-size: 1.0rem;
+}
+
+body egg {
+    font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
+    line-height: 1;
     min-height: 100%;
     background-color: #2a1f1f;
     font-size: 1.0rem;
@@ -39,7 +47,7 @@ h1 {
 
 .profile-div {
     text-align: justify;
-    width: 8.0rem;
+    width: 16.0rem;
     margin: 0 10px;
 }
 
@@ -50,6 +58,7 @@ h1 {
 
 .container > * {
     display: inline-flex;
+    flex-direction: row
 }
 
 .container {
@@ -59,4 +68,16 @@ h1 {
 
 img {
     border-radius: 10%;
+  }
+
+.game {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 75%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.responsive-iframe {
+    width: 80%;
+    height: 80%;
   }
