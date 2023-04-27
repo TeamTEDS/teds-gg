@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>TEDPS GG - Run 3</title>
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?v=2.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?v=2.0">
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png?v=2.0">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?v=2.0">
+        <link rel="manifest" href="/assets/img/site.webmanifest?v=2.0">
+        <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg?v=2.0" color="#e00000">
+        <link rel="shortcut icon" href="/assets/img/favicon.ico?v=2.0">
+        <meta name="apple-mobile-web-app-title" content="TeamTEDS">
+        <meta name="application-name" content="TeamTEDS">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/assets/img/browserconfig.xml?v=2.0">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+    <h1>
+        Run 3
+    </h1>
+    <body egg>
+        <div class="game">
+            <iframe id="embededGame" src="https://cbgamesdev.github.io/chilibowlflash/run3/" width="800" height="600" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+        
+ 
+    <script>
+        function goFullscreen(id) {
+        var element = document.getElementById(id);
+        if (element.mozRequestFullScreen) {
+          element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullScreen) {
+          element.webkitRequestFullScreen();
+        }
+        }
+    </script>
+    <a href="#" style="text-decoration: none;"><h2 onclick="goFullscreen('embededGame'); return false">Fullscreen</h2></a>
+    <h2><a style="text-decoration:none;color:#f14848;text-align:left;" href="/">Back</a></h2>
+    </body>
+    
+</html>
